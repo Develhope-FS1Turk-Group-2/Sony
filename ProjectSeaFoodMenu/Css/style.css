@@ -1,0 +1,21 @@
+body {
+    background-image: url(../Materials/backgroundg.jpg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DD7B18;
+    font-size: 45px;
+}
+
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #283D7E;
+}
+
+h{
+    font-family: 'Bebas Neue', sans-serif;
+}
