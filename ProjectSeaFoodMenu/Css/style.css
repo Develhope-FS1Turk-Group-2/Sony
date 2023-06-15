@@ -1,21 +1,49 @@
 body {
-    background-image: url(../Materials/backgroundg.jpg);
-    background-size: 75%;
+    background-image: url(../Materials/Runway\ 2023-06-15T20_14_46.714Z\ Erase\ and\ Replace\ pencil\ drawing\ of\ a\ shot\ glasses\ figures\ for\ seafood\ menu\,\ orange\ colored.png);
     background-repeat: no-repeat;
-    background-position:top;
+    background-size: 75%;
+    background-position: center top;
+    background-color: #FFFFEB;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 h2{
     font-family: 'Bebas Neue', sans-serif;
     color: #DD7B18;
     font-size: 45px;
+    font-weight: 150;
 }
 
-h3{
+h4{
     font-family: 'Bebas Neue', sans-serif;
     color: #283D7E;
+    font-weight: 150;
 }
 
-h{
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #283D7E;
+    font-weight: 1;
+    font-size: 15px;
+}
+
+.lightorange{
     font-family: 'Bebas Neue', sans-serif;
+    color: #DD7B18;
+    font-size: 45px;
+    font-weight:1;
+}
+
+.heavywhite{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 1800;
+}
+
+.heavyblue{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #283D7E;
+    font-weight: bold;
 }
