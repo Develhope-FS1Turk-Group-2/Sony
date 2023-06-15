@@ -61,3 +61,17 @@ h6{
     font-size: 45px;
     font-weight:1;
 }
+
+ul{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #283D7E;
+    font-size: 45px;
+    font-weight:1;
+}
+
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #283D7E;
+    font-weight: 1;
+    font-size: 15px;
+}
