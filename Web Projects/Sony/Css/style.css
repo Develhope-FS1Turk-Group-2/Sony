@@ -6,11 +6,10 @@
 .mainContainer{
     width: 100%;
     height: 1080px;
-    background-color: rosybrown;
 }
 .headerContainer{
     width: 100%;
-    height: 40%;
+    height: 35%;
     background-image: url(../Materials/headerbackground.webp);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -35,3 +34,60 @@ h2{
 h1{
     font-size: 50px;
 }
+
+.midContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .adContainer1,
+  .adContainer2,
+  .adContainer3 {
+    width: 25%;
+    height: 85%;
+  }
+  
+  .adContainer1 img,
+  .adContainer2 img,
+  .adContainer3 img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transform: scale(1.0);
+  }
+  .opacityblack{
+    position: absolute;
+    bottom: -4.5%;
+    width: 473px;
+    height: 120px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 1;
+  }
+  
+  .textOverlay {
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+  }
+  .textOverlay2 {
+    position: relative;
+    margin-top: -145px;
+    padding: 10px;
+    z-index: 1;
+  }
+  .textOverlay3 {
+    position: absolute;
+    bottom: 10px;
+    left: 1310px;
+    z-index: 1;
+  }
+  .textOverlay h3,
+  .textOverlay2 h3,
+  .textOverlay3 h3 {
+    font-size: 28px;
+    color: white;
+  }
