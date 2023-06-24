@@ -52,6 +52,18 @@ h1{
     align-items: center;
     margin: 0 -115%;
   }
+  .adContainer1 img:hover,
+  .adContainer2 img:hover {
+    cursor: pointer;
+    filter: brightness(1.4);
+    transition: 0.5s;
+  }
+
+  .adContainer3 img:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+    transition: 0.5s;
+  }
   
   .adContainer1 img,
   .adContainer2 img,
