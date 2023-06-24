@@ -32,7 +32,7 @@ body {
   font-weight: 400;
 }
 .headerTextContainer button{
-    font-size: 12px;
+    font-size: 10px;
     background-color: #2d75c7;
     color: #ffe9e9; width: 12%; height: 13%;
     right: 45%;
@@ -125,4 +125,43 @@ h1{
   }
   .textOverlay3 h4 {
     color: white;
+  }
+
+  .parentMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dikkat {
+    width: 70%;
+    height: 350px;
+    background-color: black;
+  }
+
+  .promoContainerParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 200px;
+    background-color: hotpink;
+  }
+
+  .promoContainer1 {
+    width: 45%;
+    height: 100%;
+    background-color: yellow;
+  }
+
+  .promoContainer2 {
+    width: 45%;
+    height: 100%;
+    background-color: red;
   }
