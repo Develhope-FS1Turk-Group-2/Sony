@@ -1,6 +1,5 @@
-@font-face{
-    font-family: Betm;
-    src: url(../Materials/BetmThin.otf);
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainContainer{
@@ -45,49 +44,62 @@ h1{
   .adContainer1,
   .adContainer2,
   .adContainer3 {
-    width: 25%;
-    height: 85%;
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -115%;
   }
   
   .adContainer1 img,
   .adContainer2 img,
   .adContainer3 img {
     position: relative;
-    width: 100%;
-    height: 500px;
+    width: 75%;
+    height: 100%;
     object-fit: cover;
-    transform: scale(1.0);
+    transform: scale(1.0.5);
+    margin: 0%;
   }
-  .opacityblack{
+  .adContainer2 .opacityblack{
+    display: flex;
     position: absolute;
-    bottom: -4.5%;
-    width: 473px;
-    height: 120px;
+    bottom: 0%;
+    width: 75%;
+    height: 30%;
     background-color: black;
     opacity: 0.9;
     z-index: 1;
   }
   
-  .textOverlay {
+  .adContainer1 .textOverlay {
     position: absolute;
-    bottom: 10px;
-    left: 130px;
-  }
-  .textOverlay2 {
-    position: relative;
-    margin-top: -145px;
-    padding: 10px;
+    bottom: 10%;
+    left: 17%;
     z-index: 1;
   }
-  .textOverlay3 {
+  .adContainer2 .textOverlay2 {
+    position:absolute;
+    z-index: 2;
+    text-align: start;
+    top: 70%;
+    right: 13%;
+  }
+  .adContainer3 .textOverlay3 {
     position: absolute;
-    bottom: 10px;
-    left: 1310px;
+    bottom: 5%;
+    left: 16%;
     z-index: 1;
   }
   .textOverlay h3,
   .textOverlay2 h3,
   .textOverlay3 h3 {
-    font-size: 28px;
+    font-size: 20px;
+    color: white;
+    font-weight: 550;
+  }
+  .textOverlay3 h4 {
     color: white;
   }
