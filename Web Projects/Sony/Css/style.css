@@ -222,4 +222,97 @@ h1{
     transition: 0.3s;
   }
 
+  .SContainerParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 400px;
+  }
+  
+  .SContainer1 {
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+  }
+
+  .SContainer1Ad {
+    margin-top: -4%;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: url(../Materials/s1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.0);
+  }
+
+  .SContainer1Text {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .SContainer2 {
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+  }
+
+  .SContainer2Ad {
+    margin-top: -4%;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: url(../Materials/s2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.0);
+  }
+
+  .SContainer2Text {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .SContainer3 {
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .SContainer3Ad {
+    margin-top: -4%;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: url(../Materials/s3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.0);
+  }
+
+  .SContainer3Text {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
   
