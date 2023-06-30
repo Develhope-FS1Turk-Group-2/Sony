@@ -14,6 +14,8 @@ body {
     background-image: url(../Materials/headerbackground.webp);
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-top: 55px;
+
 }
 
 .headerTextContainer{ 
@@ -409,3 +411,130 @@ footer .content {
 .row2 {
     padding: 0 120px;
 }
+
+
+/*DİKKAT ÇEKENLER*/
+
+.parentFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(243, 242, 242);
+  height: 500px;
+  justify-content: center;
+  width: 70%;
+}
+
+.flex-container > div {
+  display: flex;
+  background-color: rgb(212, 213, 214);
+  width: 481.2px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.flex-container > div {
+
+}
+
+
+.left-piece{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-piece{
+  height: 40%;
+  width: 92%;
+  margin: 2%;
+
+  background-color: #0179ac;
+  color: white;
+
+}
+
+.bottomPart{
+  width: 30%;
+  margin: 2%;
+  height: 60%;
+}
+
+.bottomPart img{
+  width: 80%;
+  background-color: azure;
+}
+
+
+.bottom-piece{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-piece{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.right-piece img{
+  width: 75%;
+  background-color: azure;
+
+}
+
+.text{
+  font-size: 12px;
+  line-height: 12px;
+}
+
+
+
+
+
+/*HEADER*/
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-left: -2%;
+  width: 104%;
+}
+
+
+
+.mleft{
+  width: 50%;
+  display: flex;
+  justify-content: left;
+
+}
+
+.mright{
+  width: 50%;
+
+  display: flex;
+  justify-content: right;
+}
+
+
+
+.innerImage:hover{
+  transform: translateY(5px);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
