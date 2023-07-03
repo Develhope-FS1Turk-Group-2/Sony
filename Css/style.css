@@ -440,10 +440,6 @@ footer .content {
 }
 
 
-.flex-container > div {
-
-}
-
 
 .left-piece{
   display: flex;
@@ -456,10 +452,15 @@ footer .content {
   height: 40%;
   width: 92%;
   margin: 2%;
-
   background-color: #0179ac;
   color: white;
 
+}
+
+.EISA {
+  margin: 0;
+  font-size: 1.9375rem;
+  font-family: SST W01 Medium,sans-serif;
 }
 
 .bottomPart{
