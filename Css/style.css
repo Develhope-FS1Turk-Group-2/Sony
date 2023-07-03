@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
 }
 
+
 .mainContainer{
     width: 100%;
     height: 1080px;
@@ -423,7 +424,7 @@ footer .content {
 
 .flex-container {
   display: flex;
-  background-color: rgb(243, 242, 242);
+  background-color: white;
   height: 500px;
   justify-content: center;
   width: 70%;
@@ -431,7 +432,7 @@ footer .content {
 
 .flex-container > div {
   display: flex;
-  background-color: rgb(212, 213, 214);
+  background-color: white;
   width: 481.2px;
   margin: 10px;
   text-align: center;
@@ -469,9 +470,10 @@ footer .content {
   height: 60%;
 }
 
+
 .bottomPart img{
   width: 80%;
-  background-color: azure;
+  background-color: rgb(238, 245, 245);
 }
 
 
@@ -491,9 +493,9 @@ footer .content {
 
 .right-piece img{
   width: 75%;
-  background-color: azure;
-
+  background-color: rgb(238, 245, 245);
 }
+
 
 .text{
   font-size: 12px;
