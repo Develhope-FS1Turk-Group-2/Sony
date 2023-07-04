@@ -319,9 +319,7 @@ h1{
     text-align: center;
   }
   
-body {
-   
-}
+
 
 .img-container img {
     width: 75%;
@@ -435,6 +433,7 @@ footer .content {
   background-color: white;
   width: 481.2px;
   margin: 10px;
+  margin-bottom: 70px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
@@ -462,12 +461,21 @@ footer .content {
   margin: 0;
   font-size: 1.9375rem;
   font-family: SST W01 Medium,sans-serif;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 .bottomPart{
   width: 30%;
   margin: 2%;
   height: 60%;
+}
+
+.bottomPart:hover, .rightPart:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+  transition: 0.3s;
 }
 
 
@@ -500,8 +508,12 @@ footer .content {
 .text{
   font-size: 12px;
   line-height: 12px;
+  font-family: sans-serif;
 }
-
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 
 
