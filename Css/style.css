@@ -549,14 +549,23 @@ a:active { text-decoration: none; }
 
 .innerImage {
   opacity: 1;
-  transition: .5s ease;
+  transition: .2s ease;
   cursor: pointer;
 }
 
 
-.innerImage:hover {
+.innerImage:hover{
   opacity: 0.5;
 }
+
+.buttonn {
+  border: none;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.buttonn:hover {background-color: #1a5eac;}
 
 .mright {
   padding-right: 50px;
