@@ -547,9 +547,24 @@ a:active { text-decoration: none; }
 
 
 
-.innerImage:hover{
-  transform: translateY(5px);
-  transition: transform 0.5s;
+.innerImage {
+  opacity: 1;
+  transition: .5s ease;
   cursor: pointer;
 }
+
+
+.innerImage:hover {
+  opacity: 0.5;
+}
+
+.mright {
+  padding-right: 50px;
+}
+
+.innerLeftImage{
+  padding-left: 50px;
+}
+
+
 
