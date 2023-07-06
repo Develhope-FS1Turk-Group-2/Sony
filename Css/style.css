@@ -577,3 +577,17 @@ a:active { text-decoration: none; }
 
 
 
+
+@media (max-width: 500px) {
+  .adContainer1,
+  .adContainer2,
+  .adContainer3{
+    width: 100%;
+  }
+  .midContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
